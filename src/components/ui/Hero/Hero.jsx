@@ -1,5 +1,5 @@
 import React from 'react'
-import com from '../assets/com.jpeg'
+import com from '../../../assets/com.jpeg'
 
 function Hero() {
   return (

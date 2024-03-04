@@ -1,11 +1,12 @@
 import React from "react";
-import fondoPerfil from "../assets/fondoperfil.jpeg";
-import perfil from "../assets/perfil.jpeg";
+import fondoPerfil from "../../../assets/fondoperfil.jpeg";
+import perfil from "../../../assets/perfil.jpeg";
 import Amigos from "./Amigos";
 import Articulos from "./Articulos";
-import articul1 from '../assets/articul1.jpeg'
-import articul2 from '../assets/articul2.jpeg'
+import articul1 from '../../../assets/articul1.jpeg'
+import articul2 from '../../../assets/articul2.jpeg'
 import Hero from "./Hero";
+
 
 function HeroPerfil() {
   return (
@@ -110,11 +111,11 @@ function HeroPerfil() {
         </section>
         </section>
 
-        <section className="w-full h-auto bg-[#B9B9B9] p-3 mt-5">
+        <section className="w-full h-auto rounded-lg bg-[#B9B9B9] p-3 mt-5">
           <h1 className="text-xl font-bold">Tus Articulos</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, incidunt!</p>
           
-          <div className="flex flex-col gap-3">
+          <div className=" space-y-6 border-transparent h-auto">
             <Articulos images={articul1} title="Fernanda Luna" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus voluptatem rem dolor quae natus harum mollitia atque voluptas dicta."/>
             <Articulos images={articul2} title="Lizzy" paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus voluptatem rem dolor quae natus harum mollitia atque voluptas dicta."/>
             <Articulos/>

@@ -1,0 +1,65 @@
+.user-management-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 600px;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-container button {
+    padding: 8px 15px;
+    background-color: #11ff00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #027432;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .user-name {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-right: 10px; /* Agrega un margen a la derecha para separar del icono */
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+  }

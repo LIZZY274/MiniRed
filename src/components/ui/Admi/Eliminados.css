@@ -1,0 +1,65 @@
+.user-management-item-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 600px;
+  }
+  
+  .user-management-item-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .user-management-item-delete-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .user-management-item-search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .user-management-item-search-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .user-management-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .user-management-item-name {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .user-management-item-status {
+    margin-left: 10px;
+  }
+  
+  .user-management-item-block-button {
+    padding: 8px 15px;
+    background-color: #11ff00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .user-management-item-block-button:hover {
+    background-color: #027432;
+  }
+  

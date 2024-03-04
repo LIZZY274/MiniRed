@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Perfil() {
   return (
@@ -36,9 +37,9 @@ function Perfil() {
                 <a href=""> Ver mas</a>
               </li>
               <li className="bg-[#C5C5C5] p-2 rounded">
-                <a href="">
+                <Link to="/" href="">
                   <img src="" alt="Img" />
-                </a>
+                </Link >
               </li>
             </ul>
           </nav>

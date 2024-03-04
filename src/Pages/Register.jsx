@@ -1,16 +1,13 @@
-import React from 'react';
-import './App.css';
-import { GlobalField } from './Components/forms/globalField';
-import { Paragraph } from './Components/globals/Paragraph';
-import Google from '../public/Google.png'
+import React from 'react'
+import  {Paragraph}  from '../components/ui/globals/Paragraph'
+import  {GlobalField}  from '../components/ui/forms/globalField'
 
-function App() {
+function Register() {
   return (
-    <>
-      <div className='form-content'>
+    <div>
         <Paragraph text="Únete a nuestra comunidad estudiantil" />
         <Paragraph 
-          text="Bienvenido a nuestra red social estudiantil. Regístrate ahora para conectarte con compañeros, acceder a recursos educativos y participar en eventos emocionantes"  
+          text="Bienvenido a nuestra increible y fabulosa red social estudiantil. Regístrate ahora para conectarte con compañeros, acceder a recursos educativos y participar en eventos emocionantes"  
         />
         <GlobalField label="Nombre(s)" placeholder="Nombre(s)" type="text" />
         <GlobalField label="Apellido(s)" placeholder="Apellido(s)" type="text" />
@@ -19,12 +16,12 @@ function App() {
         <GlobalField label="Confirmar Contraseña" placeholder="***********" type="password" />
         <div className="terms-checkbox">
           <GlobalField label="" type="checkbox" />
-          <Paragraph text="Al registrarse, aceptas nuestros Términos de Servicio y Política de Privacidad" />
+         <Paragraph text="Al registrarte, aceptarás nuestros Términos de Servicio y Política de Privacidad" />
         </div>
         <button className="register-button">Registrarme</button>
         <Paragraph text="_______________ o _______________" />
         <button className="register-button-google">
-        <img src={Google} alt="Google Logo" className="google-logo" />
+        <img src='' alt="Google Logo" className="google-logo" />
         Registrarme con Google
       </button>
 
@@ -35,11 +32,8 @@ function App() {
         <Paragraph>
           ¿Ya tienes una cuenta?, <a href="#inicio-sesion" className="login-link">Inicia sesión aquí</a>.
         </Paragraph>
-
-    
-      </div>
-    </>
+    </div>
   )
 }
 
-export default App;
+export default Register

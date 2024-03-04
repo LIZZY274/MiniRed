@@ -1,10 +1,9 @@
 import React from 'react'
-import articul1 from '../assets/articul1.jpeg'
 
 function Articulos({images,title,paragraph}) {
   return (
     <>
-    <article className='w-full h-[260px] bg-gray-600 relative border-2'>
+    <article className='w-full h-[270px] bg-gray-600 relative border-2'>
       <img className='w-full h-full object-cover object-center' src={images} alt="" />
       <div className=' absolute bottom-5 pl-4 flex flex-col gap-3'>
         <h1 className='text-xl text-white font-bold '>{title}</h1>
